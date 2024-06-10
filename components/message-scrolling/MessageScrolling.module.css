@@ -1,43 +1,56 @@
 .scroll__container {
-  overflow: hidden;
-  padding: 60px 0;
-  background: white;
-  white-space: nowrap;
+  display: flex;
   position: relative;
+
+  padding: var(--size-7) 0;
+
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .scroll__container:before,
 .scroll__container:after {
+  content: "";
   position: absolute;
   top: 0;
+
   width: 250px;
   height: 100%;
-  content: "";
+
   z-index: 2;
 }
 
 .scroll__container:before {
   left: 0;
+
   background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
 }
 
 .scroll__container:after {
   right: 0;
+
   background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
 }
 
-/* .scroll__container:hover .scroll__content {
+.scroll__container:hover .scroll__content {
   animation-play-state: paused;
-} */
+}
 
 .scroll__content {
-  display: inline-block;
+  display: flex;
+
+  width: 100%;
+
+  color: var(--color-dark-gray);
   animation: 35s slide infinite linear;
 }
 
-.scroll__content img {
-  height: 50px;
-  margin: 0 40px;
+.scroll__content h4 {
+  display: flex;
+  align-items: center;
+  gap: var(--size-2);
+  
+  margin: 0 var(--size-10);
 }
 
 @keyframes slide {
