@@ -28,24 +28,31 @@ export default function NavLinks() {
     <ul className={classes.nav__links}>
       <li
         className={`${classes.nav__link} ${
-          pathname === '/boutique' ? classes.active : ''
+          pathname === '/' ? classes.active : ''
         }`}
       >
-        <Link href="/boutique">BOUTIQUE</Link>
+        <Link href="/">ACCEUIL</Link>
       </li>
       <li
         className={`${classes.nav__link} ${
-          pathname === '/a-propos' ? classes.active : ''
+          pathname === '' ? classes.active : ''
         }`}
       >
-        <Link href="/a-propos">A PROPOS</Link>
+        <Link href="">BOUTIQUE</Link>
+      </li>
+      <li
+        className={`${classes.nav__link} ${
+          pathname === '' ? classes.active : ''
+        }`}
+      >
+        <Link href="">A PROPOS</Link>
       </li>
       <li
         className={`${classes.nav__link} ${
           pathname === '/blog' ? classes.active : ''
         }`}
       >
-        <Link href="/blog">BLOG</Link>
+        <Link href="">BLOG</Link>
       </li>
       <li className={`${isOpen ? classes.isExpanded : ''}`}>
         <form
@@ -59,7 +66,7 @@ export default function NavLinks() {
         </form>
       </li>
       <li>
-        <Link href="/panier">
+        <Link href="">
           <FaShoppingCart />
         </Link>
       </li>
