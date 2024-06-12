@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: var(--size-16);
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer ul li {
+  margin-bottom: var(--size-4);
+
+  cursor: pointer;
+}
+
+.footer ul li:hover {
+  text-decoration: underline;
+}
