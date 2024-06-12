@@ -5,6 +5,9 @@
   --max-width: 1100px;
   --border-radius: 12px;
 
+  --color-black: #000;
+  --color-black-88: rgba(0, 0, 0, 0.88);
+
   --color-gray: hsl(265, 55%, 96%);
 
   --color-dark-gray: #0D0D0D;
@@ -52,7 +55,7 @@ body {
 }
 
 body {
-  background-color: var(--color-white);
+  background-color: var(--color-black-88);
   color: var(--color-gray);
 }
 
