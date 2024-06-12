@@ -5,6 +5,7 @@
   padding: var(--size-7) 0;
 
   white-space: nowrap;
+  background-color: var(--color-white);
   overflow: hidden;
 }
 

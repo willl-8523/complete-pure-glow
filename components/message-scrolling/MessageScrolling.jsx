@@ -15,7 +15,6 @@ export default function MessageScrolling() {
   useEffect(() => {
     if (logosRef.current) {
       const copy = logosRef.current.cloneNode(true);
-      console.log(copy);
       logosRef.current.parentNode.appendChild(copy);
     }
   }, []);
