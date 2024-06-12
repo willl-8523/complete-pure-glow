@@ -1,11 +1,5 @@
-import Banner from '@/components/banner/Banner';
-import MessageScrolling from '@/components/message-scrolling/MessageScrolling';
+import Home from '@/components/home/Home';
 
 export default function HomePage() {
-  return (
-    <>
-      <Banner />
-      <MessageScrolling />
-    </>
-  );
+  return <Home />;
 }
