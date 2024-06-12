@@ -1,30 +1,45 @@
-export const images = [
+export const pure_glow_range_images = [
   {
-    path: 'logo/3m.svg',
-    caption: '3m logo.',
+    title: 'Nettoyants doux',
+    path: 'cards/mild_cleanser.png',
+    caption: 'Soap and a sponge on a slab of stone.',
   },
   {
-    path: 'logo/barstool-store.svg',
-    caption: 'Barstool-store logo.',
+    title: 'Sérums régénérants',
+    path: 'cards/regenerating_serum.png',
+    caption: 'A bottle of black ink with a nib.',
   },
   {
-    path: 'logo/buzzfeed.svg',
-    caption: 'Buzzfeed logo.',
+    title: 'Hydratants quotidiens',
+    path: 'cards/moisturising_cream.png',
+    caption: 'White plastic bottle on a cloth.',
   },
   {
-    path: 'logo/forbes.svg',
-    caption: 'Forbes logo.',
+    title: 'Masques revitalisants',
+    path: 'cards/revitalising_mask.png',
+    caption: 'White and black tube bottle',
+  },
+];
+
+export const blog_images = [
+  {
+    path: 'blog/good.jpg',
+    caption: 'Cardboard box on the bed.',
   },
   {
-    path: 'logo/macys.svg',
-    caption: 'Macys logo.',
+    path: 'blog/birgith.jpg',
+    caption: 'Black and orange bottle next to a round white container.',
   },
   {
-    path: 'logo/menshealth.svg',
-    caption: 'Menshealth logo.',
+    path: 'blog/ehsan.jpg',
+    caption: 'Woman with brown hair and silver necklace.',
   },
   {
-    path: 'logo/mrbeast.svg',
-    caption: 'Mrbeast logo.',
+    path: 'blog/oil.png',
+    caption: 'A woman with an oil bottle on her chest.',
+  },
+  {
+    path: 'blog/actionvance.jpg',
+    caption: 'Woman wearing a spaghetti top',
   },
 ];
