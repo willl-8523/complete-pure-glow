@@ -50,6 +50,10 @@
   color: var(--color-dark-gray);
 }
 
+.card .title svg {
+  cursor: pointer;
+}
+
 .desc {
   margin-top: 7rem;
 
